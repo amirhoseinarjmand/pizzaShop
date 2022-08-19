@@ -1,0 +1,163 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fdecec62;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem 2rem;
+    z-index: 3;
+    transition: all 0.1s;
+}
+
+.stickyHeader {
+    padding: 5px 2rem;
+    background-color: #E91E63;
+    color: #fff;
+    box-shadow: 0 0 19px -7px #000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.logo span {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.leftSide {
+    flex: 1;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.menu {
+    font-family: Byekan;
+    font-weight: 900;
+    list-style-type: none;
+    flex: 1;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    z-index: 10;
+}
+
+.menu>li {
+    position: relative;
+    cursor: pointer;
+}
+
+.menu>li>span {
+    position: absolute;
+    bottom: -10px;
+    right: 50%;
+    transform: translateX(50%);
+    background: var(--themeRed);
+    width: 0;
+    height: 2px;
+    transition: 0.3s ease-in-out;
+}
+
+.menu>li:hover {
+    color: var(--themeRed);
+}
+
+.menu>li:hover>span {
+    width: 100%;
+}
+
+.cart {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.cart>div>i {
+    font-size: 25px;
+}
+
+.badge {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--themeRed);
+    color: #fff;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    right: -0.5rem;
+    top: -0.2rem;
+}
+
+.bar {
+    display: none;
+    margin-right: 1rem;
+}
+
+.barMenu {
+    position: absolute;
+    top: -16px;
+    right: 0;
+    padding: 1rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color:#F50057;
+    box-shadow: 0 0 20px -5px #000;
+    border-radius: 5px;
+    color: #fff;
+    list-style-type: none;
+    font-family: Byekan;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.barMenu> li:not(:nth-child(3)) {
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.barMenu>span {
+    height: 0.5px;
+    width: 7rem;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 653px) {
+
+    .menu {
+        font-weight: normal;
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .menu {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+    }
+}

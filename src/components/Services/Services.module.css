@@ -1,0 +1,123 @@
+.heading {
+    margin-top: 6rem;
+    font-family: Byekan;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading>:nth-child(1) {
+    color: var(--themeRed);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.heading>:nth-child(2),
+.heading>:nth-child(3),
+.heading>:nth-child(4),
+.heading>:nth-child(5) {
+    font-size: 2rem;
+}
+
+.serviceText {
+    display: flex;
+    gap: 8rem;
+}
+
+.serviceRight,
+.serviceLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.serviceRight>div,
+.serviceLeft>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+/* //////////////////////////////////////////////////////////////////////  */
+
+
+.services {
+    display: flex;
+    margin-top: 5rem;
+    gap: 7rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature {
+    font-family: Byekan;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.imageWrapper>img {
+    object-fit: cover;
+    width: 10rem;
+    height: 10rem;
+}
+
+.feature> :nth-child(2) {
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+
+.feature> :nth-child(3) {
+    color: var(--themeRed);
+}
+
+@media screen and (max-width: 1400px) {
+
+    .services {
+        gap: 4rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .feature>span {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .heading>:nth-child(2),
+    .heading>:nth-child(3),
+    .heading>:nth-child(4),
+    .heading>:nth-child(5) {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .services {
+        flex-direction: column;
+    }
+
+    .feature>span {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    .serviceText {
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+}

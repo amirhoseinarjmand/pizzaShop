@@ -1,0 +1,213 @@
+.pizzaInfo {
+    position: relative;
+    padding: 0 11rem;
+    padding-top: 6rem;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 5rem;
+    font-family: Byekan;
+}
+
+.backToPrevPage {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    background-color: #F48FB1;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.backToPrevPage:hover {
+    opacity: 0.7;
+}
+
+.right {
+    position: relative;
+    width: 40%;
+    height: 25rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.right>img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* ///////////////////////////////////////////////////////////////////////// */
+
+.left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.2rem;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left>:nth-child(2) {
+    font-family: BRoya;
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: var(--gray);
+}
+
+.size {
+    display: flex;
+    gap: 3rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.sizeVarient {
+    display: flex;
+    gap: 0.6rem;
+    font-weight: bold;
+    color: var(--themeRed);
+    font-size: 0.8rem;
+}
+
+.sizeVarient>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem 1.5rem;
+    border: 3px solid var(--themeRed);
+    border-radius: 2rem;
+    transition: none;
+}
+
+.sizeVarient>div:hover {
+    background-color: var(--themeRed);
+    color: #fff;
+    cursor: pointer;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.counter {
+    height: 20px;
+    width: 10rem;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.counter>button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+.counter>button>img {
+    width: 12px;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    align-self: flex-end;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: none;
+}
+
+.active {
+    background-color: var(--themeRed);
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .right {
+        width: 35%;
+        height: 20rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .left {
+        font-size: 1.5rem;
+    }
+
+    .size {
+        font-size: 1.5rem;
+    }
+
+    .quantity {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    .pizzaInfo {
+        flex-direction: column;
+    }
+
+    .right {
+        width: 90%;
+        height: 25rem;
+    }
+
+    .left {
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .btn {
+        margin-top: 1rem;
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .pizzaInfo {
+        padding: 2em 6rem;
+        padding-top: 7rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .pizzaInfo {
+        padding: 2em 2rem;
+        padding-top: 7rem;
+    }
+
+    .right {
+        width: 80%;
+        height: 20rem;
+        align-self: center;
+    }
+
+    .quantity {
+        font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,139 @@
+.menu {
+    padding: 1rem 11rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 7rem;
+    font-family: Byekan;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+.heading> :nth-child(1) {
+    width: 10rem;
+    padding-bottom: 0.5rem;
+    color: var(--themeRed);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid var(--themeRed);
+    text-align: center;
+}
+
+.heading> :nth-child(2),
+.heading> :nth-child(3) {
+    font-size: 1.5rem;
+}
+
+.pizzaMenu {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 3rem;
+    column-gap: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.pizza {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.pizza> :nth-child(2) {
+    font-size: 1.5rem;
+}
+
+.pizza> :nth-child(2),
+.pizza> :nth-child(3) {
+    padding-right: 10px;
+}
+
+.pizza>:nth-child(3)>button {
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.pizza> :nth-child(3):hover>button {
+    cursor: pointer;
+    transform: none;
+}
+
+.pizzaImage {
+    height: 16rem;
+    width: 20rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+.pizzaImage>img {
+    object-fit: cover;
+    width: 20rem;
+    height: 16rem;
+}
+
+.pizzaImage:hover>img {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1200px) {
+
+    .heading {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1058px) {
+
+    .menu {
+        padding: 1rem 6rem;
+    }
+}
+
+
+@media screen and (max-width: 935px) {
+
+    .menu {
+        padding: 1rem 2rem;
+    }
+
+    .heading> :nth-child(2),
+    .heading> :nth-child(3) {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .pizza {
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .menu {
+        padding: 1rem 8em;
+    }
+
+    .heading> :nth-child(1) {
+        font-size: 1rem;
+    }
+
+    .heading> :nth-child(2),
+    .heading> :nth-child(3) {
+        font-size: 0.9rem;
+    }
+}

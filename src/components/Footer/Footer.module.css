@@ -1,0 +1,51 @@
+.Footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 4rem;
+    padding-bottom: 0.5rem;
+    align-items: center;
+    justify-content: center ;
+    background-image: linear-gradient(1deg, rgba(251, 172, 172, 0.637) 0%, rgba(255, 255, 255, 0) 14rem);
+}
+
+.social {
+    display: flex;
+    gap: 1rem;
+}
+
+.social>*:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.logo>span {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.Footer>span {
+    font-family: Byekan;
+    color: var(--themeRed);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 537px) {
+
+    .Footer {
+        font-size: 0.7rem;
+    }
+}

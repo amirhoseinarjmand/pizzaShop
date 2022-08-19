@@ -1,0 +1,94 @@
+{
+  "pizza": [
+    {
+      "name": "پیتزا ایتالیایی",
+      "image": "https://arga-mag.com/file/img/2021/01/How-to-make-American-pizza-3.jpg",
+      "price0": "35000",
+      "price1": "65000",
+      "price2": "98000",
+      "details": "مزه ی به یادماندنی پیتزای ایتالیایی (قارچ + گوشت + پنیر + فلفل قرمز + سوسیس)",
+      "id": 1
+    },
+    {
+      "name": "پیتزا آمریکایی",
+      "image": "https://img.freepik.com/premium-photo/delicious-savory-pizza-with-pepperoni-pepper-black-board-dark-wooden-background_219193-29.jpg?size=626&ext=jpg&ga=GA1.2.1199805413.1660453818",
+      "price0": 42000,
+      "price1": 75000,
+      "price2": 93000,
+      "details": "طعم فلفل خوشمزه (فلفل قرمز + فلفل تند + فلفل سیاه + پنیر + قارچ)",
+      "id": 2
+    },
+    {
+      "name": "تیکا پیتزا",
+      "image": "https://img.freepik.com/free-photo/top-view-whole-pepperoni-pizza-with-sesame-sprinkles-top_141793-2179.jpg?size=626&ext=jpg&ga=GA1.2.1199805413.1660453818",
+      "price0": 120000,
+      "price1": 145000,
+      "price2": 180000,
+      "details": "طعم خاص و خوشمزه با پیتزای تیکا از کشور فرانسه (زیتون فرآورده + قارچ +پنیر)",
+      "id": 3
+    },
+    {
+      "name": "پیتزا مکزیکی",
+      "image": "https://img.freepik.com/free-photo/mixed-pizza-with-various-ingridients_140725-3790.jpg?size=626&ext=jpg&ga=GA1.2.1199805413.1660453818",
+      "price0": 29000,
+      "price1": 59000,
+      "price2": 73000,
+      "details": "به صرفه و ارزان (گورجه + تخم مرغ + پنیر)",
+      "id": 4
+    },
+    {
+      "name": "پیتزا چینی پنیری",
+      "image": "https://img.freepik.com/free-photo/pizza-with-salami-tomatoes-olives-cheese-dough-with-whole-wheat-flour-italian-food_2829-6855.jpg?size=626&ext=jpg&ga=GA1.2.1199805413.1660453818",
+      "price0": 150000,
+      "price1": 185000,
+      "price2": 240000,
+      "details": "مزه ی خاص پنیر چین (زیتون + گورجه + فلفل تند + سوسیس)",
+      "id": 5
+    },
+    {
+      "name": "پیتزا پپرونی",
+      "image": "https://img.freepik.com/free-photo/traditional-supreme-pizza-black-stone_123827-20347.jpg?size=626&ext=jpg&ga=GA1.2.1199805413.1660453818",
+      "price0": 80000,
+      "price1": 98000,
+      "price2": 115000,
+      "details": "مزه ی تند به یاد ماندنی (فلفل سیاه + فلفل تند + فلفل قرمز + سوسیس + سس تند)",
+      "id": 6
+    },
+    {
+      "name": "پیتزا ردچیلی",
+      "image": "https://img.freepik.com/free-photo/close-up-pepperoni-pizza-slices-with-sausages-mushroom-olive-bell-pepper-cheese_141793-2043.jpg?size=626&ext=jpg&ga=GA1.2.1199805413.1660453818",
+      "price0": 140000,
+      "price1": 250000,
+      "price2": 320000,
+      "details": "قرمز شاهکار (زیتون فرآورده + قارچ +پنیر)",
+      "id": 7
+    },
+    {
+      "name": "پیتزا سبزیجات",
+      "image": "https://img.freepik.com/free-photo/seafood-pizza_1205-1348.jpg?size=626&ext=jpg&ga=GA1.2.1199805413.1660453818",
+      "price0": 65000,
+      "price1": 80000,
+      "price2": 100000,
+      "details": "برای مشتریان گیاهخوار عزیزمون (سبزیجات متنوع + زیتون + اسانس نعنا)",
+      "id": 8
+    },
+    {
+      "name": "پیتزا مخلوط گورجه",
+      "image": "https://img.freepik.com/free-photo/pizza-with-sausage-tomatoes-olives-top-view_140725-999.jpg?size=626&ext=jpg&ga=GA1.2.1199805413.1660453818",
+      "price0": 45000,
+      "price1": 65000,
+      "price2": 85000,
+      "details": "مخلوط سبزیجات و گورجه (گورجه + سبزیجات + تخم مرغ + سوسیس)",
+      "id": 9
+    },
+    {
+      "name": "پیتزا لیمویی",
+      "image": "https://img.freepik.com/free-photo/tuna-pizza-tomato-capers-cheese-onion-olives-top-view_141793-2490.jpg?w=900&t=st=1660456312~exp=1660456912~hmac=aa22aae7d04e5954d3c168991ca29cf8313ffbf72f97dcb85b2679bc229f2319",
+      "price0": 44000,
+      "price1": 59000,
+      "price2": 91000,
+      "details": "یه پیتزای خوشمزه با طعم لیمو (اسانس لیمو + سوسیس + سبزیجات + گورجه)",
+      "id": 10
+    }
+  ]
+}
