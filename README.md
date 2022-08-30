@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# برای اجرای کامل این پروژه مراحل زیر را انجام دهید 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
