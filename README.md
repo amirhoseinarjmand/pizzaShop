@@ -30,7 +30,7 @@ HTML, CSS and JS are used in this project
 
 ## Follow the instructions below step by step
 
-1- First enter this command: 
+1- First, go to the root of the project and enter the following command in the CMD of your system.: 
 
 ### `cd server`
 
