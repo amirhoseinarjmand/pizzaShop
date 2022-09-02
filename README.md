@@ -19,3 +19,25 @@
 اکنون پروژه به خوبی و بدون مشکل ، بر روی پورت 3000 مرورگر سیستم شما قابل مشاهده است.
 
  در صورتی که به طور خورکار پروژه بر روی مرورگر سیستم شما ران نشد ، روی [http://localhost:3000](http://localhost:3000) کلیک کنید.
+
+
+-----------------------------
+-----------------------------
+
+# Pizza shop
+
+HTML, CSS and JS languages ​​are used in this project
+
+## Follow the instructions below step by step
+
+1- First enter this command: 
+
+### `cd server`
+
+2- Then enter this command: 
+
+### `npm start`
+
+3- Then enter this command:
+
+### `npm start`
