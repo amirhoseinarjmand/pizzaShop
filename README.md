@@ -26,7 +26,7 @@
 
 # Pizza shop
 
-HTML, CSS and JS languages ​​are used in this project
+HTML, CSS and JS are used in this project
 
 ## Follow the instructions below step by step
 
