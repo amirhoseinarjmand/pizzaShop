@@ -38,6 +38,6 @@ HTML, CSS and JS languages ​​are used in this project
 
 ### `npm start`
 
-3- Then enter this command:
+3- Now, without closing the CMD window, go to the root address of the project and open a new CMD. Then enter the following command again.:
 
 ### `npm start`
