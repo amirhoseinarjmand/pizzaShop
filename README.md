@@ -38,6 +38,10 @@ HTML, CSS and JS languages ​​are used in this project
 
 ### `npm start`
 
-3- Now, without closing the CMD window, go to the root address of the project and open a new CMD. Then enter the following command again.:
+3- Now, without closing the CMD window, go to the root address of the project and open a new CMD. Then enter the following command again:
 
 ### `npm start`
+
+Now the project can be viewed on port 3000 of your system browser without problems
+
+If the project does not run correctly on your system browser, click on http://localhost:3000
