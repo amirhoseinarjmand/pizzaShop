@@ -22,6 +22,15 @@
 
 
 -----------------------------
+![bandicam 2022-09-19 23-14-04-017](https://user-images.githubusercontent.com/103599760/191092544-7c1251e3-dd66-4f66-8e4a-3801f2fece14.jpg)
+-----------------------------
+![bandicam 2022-09-19 23-14-16-364](https://user-images.githubusercontent.com/103599760/191092585-c83ba123-84f8-42d9-a0f9-45b7ec343fd8.jpg)
+-----------------------------
+![bandicam 2022-09-19 23-14-32-650](https://user-images.githubusercontent.com/103599760/191092610-dd1c8423-1787-4cd6-8eee-ef4269d49c4e.jpg)
+-----------------------------
+![bandicam 2022-09-19 23-14-54-227](https://user-images.githubusercontent.com/103599760/191092645-d1010f23-4499-4ffc-bbb7-4f4f7c31362f.jpg)
+-----------------------------
+![bandicam 2022-09-19 23-15-04-123](https://user-images.githubusercontent.com/103599760/191092667-cbce9b13-cb45-4370-8b20-596602023710.jpg)
 -----------------------------
 
 # Pizza shop
@@ -45,3 +54,4 @@ HTML, CSS and JS are used in this project
 Now the project can be viewed on port 3000 of your system browser without problems
 
 If the project does not run correctly on your system browser, click on http://localhost:3000
+
