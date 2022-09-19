@@ -1,6 +1,3 @@
-
-
------------------------------
 ![bandicam 2022-09-19 23-14-04-017](https://user-images.githubusercontent.com/103599760/191092544-7c1251e3-dd66-4f66-8e4a-3801f2fece14.jpg)
 -----------------------------
 ![bandicam 2022-09-19 23-14-16-364](https://user-images.githubusercontent.com/103599760/191092585-c83ba123-84f8-42d9-a0f9-45b7ec343fd8.jpg)
